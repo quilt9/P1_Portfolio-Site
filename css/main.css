@@ -1,13 +1,13 @@
-/*
-color
+/*color
 ---------------------------------------------------
 #ffffdc
 #d1dbbd
 #91aa9d
 #3e606f
 #193441
+*/
 
-grey
+/* grey
 ---------------------------------------------------
 #8c8c8c
 #4c4c4c
@@ -19,9 +19,10 @@ grey
 
 body {
 	font-family: "Roboto", sans-serif; 
-	background-color: #ffffdc;
+	background-color: #fff;
 	color: #4c4c4c;
 }
+
 
 h1,
 h2,
@@ -38,6 +39,7 @@ hr {
 	margin: 0 0 20px;
 }
 
+
 .title-logo {
 	width: 90px;
 	height: 90px;
@@ -45,24 +47,22 @@ hr {
 	margin: 20px 0;
 }
 
-
 .title-super {
 	font-size: 48px;
 	color: #a4a4a4;
 }
 
 section.featured {
-	padding: 0 0 30px;
+	padding: 0 0 15px;
 }
 
-section.featured.row.text-center.col-md-4 {
-	padding: 0 0 10px;
+.featured-content {
+	padding: 0 15px 15px;
 }
 
 .text-open {
 	letter-spacing: 0.05em;
 }
-
 
 .text-thin {
 	font-weight: 100;
@@ -74,6 +74,10 @@ section.featured.row.text-center.col-md-4 {
 }
 
 
+/*button
+---------------------------------------------------
+*/
+
 .btn-primary {
 	font-weight: 100;
 	font-size: 1em;
@@ -82,12 +86,10 @@ section.featured.row.text-center.col-md-4 {
 	border-color: #fff;
 }
 
-
 .btn-lg {
 	padding: 5px 16px;
 	border-radius: 3px;
 }
-
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
 	background-color: #91aa9d;
@@ -96,9 +98,20 @@ section.featured.row.text-center.col-md-4 {
 }
 
 
-.modal-footer {
-	text-align: center;
+/*modal
+---------------------------------------------------
+*/
+
+h4#myModalLabel.modal-title {
+	font-size: 14px;
+	padding: 5px 10px;
+	color: #a4a4a4;
 }
+
+
+/*@media queries
+---------------------------------------------------
+*/
 
 @media screen and (min-width: 768px) {
 	.header-name.col-sm-6,
@@ -123,6 +136,13 @@ section.featured.row.text-center.col-md-4 {
 		width: 50px;
 		height: 50px;
 		margin: 20px 0 10px;
+	}
+	.header-name h4 {
+		margin: 5px 0 10px;
+	}
+	.section-heading h2 {
+		font-size: 18px;
+		text-align: center;
 	}
 }
 
