@@ -23,7 +23,6 @@ body {
 	color: #4c4c4c;
 }
 
-
 h1,
 h2,
 h3,
@@ -127,7 +126,7 @@ h1.symbol, .glyphicon-heart-empty {
 	color: #ff0000;
 }
 
-h2.text-muted.text-thin {
+h1.text-muted.text-thin {
 	text-align: center;
 	margin: 0 0 15px;
 }
@@ -136,7 +135,7 @@ h2.text-muted.text-thin {
 ---------------------------------------------------
 */
 
-.stars {
+.stars, .section-heading {
 	text-align: center;
 }
 
@@ -159,11 +158,11 @@ section.featured {
 */
 
 .btn-primary {
-	font-weight: 100;
-	font-size: 1em;
-	color: #333;
-	background-color: #d1dbbd;
-	border-color: #fff;
+	font-weight: 400;
+	font-size: 1.25em;
+	color: #686868;
+	background-color: #fff;
+	border-color: #686868;
 }
 
 .btn-lg {
@@ -172,9 +171,8 @@ section.featured {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-	background-color: #91aa9d;
-	color: #fff;
-	border-color: #fff;
+	background-color: #fff;
+	color: #ff0000;
 }
 
 
@@ -192,6 +190,10 @@ h4#myModalLabel.modal-title {
 	color: #a4a4a4;
 }
 
+.modal-footer {
+	margin: 0 30px;
+}
+
 
 /*@media queries
 ---------------------------------------------------
@@ -201,6 +203,10 @@ h4#myModalLabel.modal-title {
 	.header-name.col-sm-6,
 	.header-name.col-md-6 {
 		text-align: right;
+	}
+	
+	.modal-dialog {
+		width: 800px;
 	}
 }
 
@@ -228,20 +234,27 @@ h4#myModalLabel.modal-title {
 		margin: 5px 0 10px;
 	}
 	
-	.section-heading h2 {
-		font-size: 18px;
-		text-align: center;
+	section.featured {
+		padding: 5px 0 10px;
 	}
-}
+	
+	.section-heading h2 {
+		font-size: 21px;
+		text-align: center;
+		margin: 5px 0 10px;
+	}
+	
+	img.img-responsive {
+		margin: 0 auto;
+	}
 
-@media screen and (max-width: 640px) {
 	.container {
 		width: 320px;
 		padding: 0;
 	}
 	
 	.page-header {
-		height: 300px;
+		height: 225px;
 	}
 
   .mast-head h1 {
@@ -251,7 +264,32 @@ h4#myModalLabel.modal-title {
   .glyphicon {
 		font-size: 14px;
 	}
+	
+	h1.design {
+	font-size: 30px;
+	}
+
+	h1.develop {
+		font-size: 36px;
+	}
+
+	h1.result {
+		font-size: 30px;
+	}
+
+	h1.symbol {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.glyphicon-star {
+	font-size: 8px;
+	}
+
+
 }
+
+
 
 
 	
