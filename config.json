@@ -384,11 +384,11 @@
     "type.less",
     "grid.less",
     "buttons.less",
+    "glyphicons.less",
     "navs.less",
     "close.less",
     "component-animations.less",
-    "modals.less",
-    "carousel.less"
+    "modals.less"
   ],
   "js": [
     "alert.js",
@@ -404,5 +404,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=6391bb10e7975952e32e"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=00fff0e8a1a4802d8c11"
 }
