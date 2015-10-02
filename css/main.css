@@ -18,36 +18,33 @@
 
 
 body {
-	font-family: "Roboto", sans-serif; 
-	background-color: #fff;
-	color: #4c4c4c;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color: #4c4c4c;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	font-weight: normal; 
-	color: #333;
+    font-weight: normal;
+    color: #333;
 }
 
 .text-open {
-	letter-spacing: 0.05em;
+    letter-spacing: 0.05em;
 }
-
 
 .text-thin {
-	font-weight: 100;
-
+    font-weight: 100;
 }
 
-
 .text-muted {
-	color: #a4a4a4;
+    color: #a4a4a4;
 }
 
 .glyphicon {
-	font-size: 28px;
+    font-size: 28px;
 }
 
 
@@ -56,79 +53,79 @@ h4 {
 */
 
 header {
-	margin: 0 15px;
+    margin: 0 15px;
 }
 
 .title-logo {
-	width: 90px;
-	height: 90px;
-	max-width: 500px;
-	margin: 20px 0;
+    width: 90px;
+    height: 90px;
+    max-width: 500px;
+    margin: 20px 0;
 }
 
 .title-super {
-	font-size: 48px;
-	color: #a4a4a4;
+    font-size: 48px;
+    color: #a4a4a4;
 }
 
 hr {
-	border-top: 1px solid #91aa9d;
-	display: block;
-	margin: 0 0;
+    border-top: 1px solid #91aa9d;
+    display: block;
+    margin: 0 0;
 }
 
 .hero {
-	margin: 0 15px;
+    margin: 0 15px;
 }
 
 .page-header {
-	display: table;
-	width: 100%;
-	height: 500px;
-	border: 0;
-	margin: 0;
-	padding: 0;
+    display: table;
+    width: 100%;
+    height: 500px;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .heading {
-	display: table-row;
-	text-align: center;
+    display: table-row;
+    text-align: center;
 }
 
 .mast-head {
-	display: table-cell;
-	vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .cta {
-	margin: 30px 0;
+    margin: 30px 0;
 }
 
 h1.design {
-	font-family: 'Lily Script One', cursive;
-	font-size: 60px;
-	margin: 0;
+    font-family: 'Lily Script One', cursive;
+    font-size: 60px;
+    margin: 0;
 }
 
 h1.develop {
-	font-family: 'Share Tech Mono', sans-serif;
-	font-size: 66px;
-	margin: 0;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 66px;
+    margin: 0;
 }
 
 h1.result {
-	font-family: 'Glass Antiqua', cursive;
-	font-size: 60px;
-	margin: 0;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 60px;
+    margin: 0;
 }
 
 h1.symbol, .glyphicon-heart-empty {
-	color: #ff0000;
+    color: #ff0000;
 }
 
 h1.text-muted.text-thin {
-	text-align: center;
-	margin: 0 0 15px;
+    text-align: center;
+    margin: 0 0 15px;
 }
 
 /* featured
@@ -136,20 +133,20 @@ h1.text-muted.text-thin {
 */
 
 .stars, .section-heading {
-	text-align: center;
+    text-align: center;
 }
 
 .glyphicon-star {
-	color: #ff0000;
-	font-size: 12px;
+    color: #ff0000;
+    font-size: 12px;
 }
 
 section.featured {
-	padding: 15px 0;
+    padding: 15px 0;
 }
 
 .featured-content {
-	padding: 0 15px 15px;
+    padding: 0 15px 15px;
 }
 
 
@@ -158,21 +155,21 @@ section.featured {
 */
 
 .btn-primary {
-	font-weight: 400;
-	font-size: 1.25em;
-	color: #686868;
-	background-color: #fff;
-	border-color: #686868;
+    font-weight: 400;
+    font-size: 1.25em;
+    color: #686868;
+    background-color: #fff;
+    border-color: #686868;
 }
 
 .btn-lg {
-	padding: 5px 16px;
-	border-radius: 3px;
+    padding: 5px 16px;
+    border-radius: 3px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-	background-color: #fff;
-	color: #ff0000;
+    background-color: #fff;
+    color: #ff0000;
 }
 
 
@@ -181,17 +178,17 @@ section.featured {
 */
 
 modal-header {
-	padding: 15px 30px;
+    padding: 15px 30px;
 }
 
 h4#myModalLabel.modal-title {
-	font-size: 18px;
-	padding: 5px 10px 0;
-	color: #a4a4a4;
+    font-size: 18px;
+    padding: 5px 10px 0;
+    color: #a4a4a4;
 }
 
 .modal-footer {
-	margin: 0 30px;
+    margin: 0 30px;
 }
 
 
@@ -200,96 +197,89 @@ h4#myModalLabel.modal-title {
 */
 
 @media screen and (min-width: 768px) {
-	.header-name.col-sm-6,
+    .header-name.col-sm-6,
 	.header-name.col-md-6 {
-		text-align: right;
-	}
-	
-	.modal-dialog {
-		width: 800px;
-	}
+        text-align: right;
+    }
+
+    .modal-dialog {
+        width: 800px;
+    }
 }
 
 @media screen and (max-width: 767px) {
-	.header-name {
-		text-align: center;
-	}
-	
-	.header-logo {
-		text-align: center;
-	}
-	
-	h1.title-super {
-		font-size: 28px;
-		margin: 0;
-	}
-	
-	.title-logo {
-		width: 50px;
-		height: 50px;
-		margin: 20px 0 10px;
-	}
-	
-	.header-name h4 {
-		margin: 5px 0 10px;
-	}
-	
-	section.featured {
-		padding: 5px 0 10px;
-	}
-	
-	.section-heading h2 {
-		font-size: 21px;
-		text-align: center;
-		margin: 5px 0 10px;
-	}
-	
-	img.img-responsive {
-		margin: 0 auto;
-	}
+    .header-name {
+        text-align: center;
+    }
 
-	.container {
-		width: 320px;
-		padding: 0;
-	}
-	
-	.page-header {
-		height: 225px;
-	}
+    .header-logo {
+        text-align: center;
+    }
 
-  .mast-head h1 {
-  	font-size: 30px;
-  }
-  
-  .glyphicon {
-		font-size: 14px;
-	}
-	
-	h1.design {
-	font-size: 30px;
-	}
+    h1.title-super {
+        font-size: 28px;
+        margin: 0;
+    }
 
-	h1.develop {
-		font-size: 36px;
-	}
+    .title-logo {
+        width: 50px;
+        height: 50px;
+        margin: 20px 0 10px;
+    }
 
-	h1.result {
-		font-size: 30px;
-	}
+    .header-name h4 {
+        margin: 5px 0 10px;
+    }
 
-	h1.symbol {
-		margin: 0;
-		padding: 0;
-	}
-	
-	.glyphicon-star {
-	font-size: 8px;
-	}
+    section.featured {
+        padding: 5px 0 10px;
+    }
 
+    .section-heading h2 {
+        font-size: 21px;
+        text-align: center;
+        margin: 5px 0 10px;
+    }
 
+    img.img-responsive {
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 320px;
+        padding: 0;
+    }
+
+    .page-header {
+        height: 225px;
+    }
+
+    .mast-head h1 {
+        font-size: 30px;
+    }
+
+    .glyphicon {
+        font-size: 14px;
+    }
+
+    h1.design {
+        font-size: 30px;
+    }
+
+    h1.develop {
+        font-size: 36px;
+    }
+
+    h1.result {
+        font-size: 30px;
+    }
+
+    h1.symbol {
+        margin: 0;
+        padding: 0;
+    }
+
+    .glyphicon-star {
+        font-size: 8px;
+    }
 }
-
-
-
-
-	
